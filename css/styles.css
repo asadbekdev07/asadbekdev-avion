@@ -244,6 +244,50 @@ select:-webkit-autofill:focus {
   color: #ffffff;
 }
 
+/* DIFFERENT  */
+.different {
+  padding-top: 60px;
+  padding-bottom: 86px;
+  padding-left: 86px;
+  padding-right: 110px;
+}
+
+.different__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.different__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.different__item {
+  max-width: 270px;
+}
+
+.different__item:not(:last-child) {
+  margin-right: 65px;
+}
+
+.different__item-img {
+  margin-bottom: 16px;
+}
+
+.different__item-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 28px;
+}
+.different__item-text {
+  font-size: 16px;
+  line-height: 24px;
+}
 
 
 
