@@ -372,6 +372,47 @@ select:-webkit-autofill:focus {
 }
 
 
+/* POPULAR-PRODUCTS  */
+.popular-products {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 80px 50px 80px;
+}
+
+.popular-products__title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: "Clash Display";
+  font-size: 32px;
+  line-height: 45px;
+}
+.popular-products__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.popular-products__item:not(:last-child) {
+  margin-right: 20px;
+}
+.popular-products__item-img {
+  margin-bottom: 24px;
+}
+.popular-products__item-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-family: "Clash Display";
+  font-size: 20px;
+  line-height: 28px;
+}
+.popular-products__item-price {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
