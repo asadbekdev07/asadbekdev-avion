@@ -4,6 +4,29 @@
   --secondary-text-color: #726e8d;
 }
 
+
+/* FONT-FACE  */
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2"),
+      url("/fonts/Satoshi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Clash Display";
+  src: url("/fonts/ClashDisplay-Regular.woff2") format("woff2"),
+      url("/fonts/ClashDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
 /* GLOBAL  */
 html {
   box-sizing: border-box;
@@ -28,7 +51,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Satoshi", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-color: #ffffff;
@@ -119,6 +142,7 @@ select:-webkit-autofill:focus {
   height: 16px;
 }
 .site-header__logo {
+  font-family: "Clash Display";
   font-size: 24px;
   line-height: 30px;
   color: #22202e;
@@ -207,6 +231,7 @@ select:-webkit-autofill:focus {
   max-width: 513px;
 }
 .design__title {
+  font-family: "Clash Display";
   margin-top: 60px;
   margin-bottom: 41px;
   font-size: 32px;
@@ -253,6 +278,7 @@ select:-webkit-autofill:focus {
 }
 
 .different__title {
+  font-family: "Clash Display";
   margin-top: 0;
   margin-bottom: 50px;
   font-size: 24px;
@@ -279,6 +305,7 @@ select:-webkit-autofill:focus {
 }
 
 .different__item-title {
+  font-family: "Clash Display";
   margin-top: 0;
   margin-bottom: 8px;
   font-size: 20px;
