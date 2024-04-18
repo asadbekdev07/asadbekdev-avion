@@ -412,6 +412,63 @@ select:-webkit-autofill:focus {
   line-height: 27px;
 }
 
+/* SIGN-UP  */
+.sign-up {
+  padding: 60px 80px;
+  background-color: #f9f9f9;
+}
+
+.sign-up__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: #ffffff;
+}
+
+.sign-up__content {
+  margin-bottom: 72px;
+  max-width: 571px;
+  width: 100%;
+  text-align: center;
+}
+.sign-up__content-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Clash Display";
+  font-size: 36px;
+  line-height: 50px;
+}
+.sign-up__content-text {
+  margin: 0;
+  line-height: 24px;
+}
+.sign-up__email-form {
+  max-width: 472px;
+  width: 100%;
+}
+.sign-up__fields {
+  display: flex;
+  align-items: center;
+}
+.sign-up__field {
+  flex-grow: 1;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 32px;
+  padding-right: 200px;
+  border: 0;
+  background-color: #f9f9f9;
+}
+.sign-up__button {
+  border: 0;
+  flex-shrink: 0;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: var(--primary-text-color);
+}
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
