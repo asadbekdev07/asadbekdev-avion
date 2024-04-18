@@ -149,7 +149,7 @@ select:-webkit-autofill:focus {
 .site-header__item-user-cart-link {
   display: flex;
 }
-.ite-header__item-user-cart-img {
+.item-header__item-user-cart-img {
   display: flex;
   width: 16px;
   height: 16px;
@@ -229,6 +229,11 @@ select:-webkit-autofill:focus {
 
 .design__button:active {
   opacity: 0.6;
+}
+
+.design__button:focus {
+  outline: 2px dashed var(--secondary-text-color);
+  outline-offset: 3px;
 }
 
 .design__text {
