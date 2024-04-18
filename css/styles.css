@@ -189,6 +189,59 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+
+/* DESIGN  */
+.design__container {
+  padding: 60px 80px 60px 80px;
+}
+.design {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  background-color: var(--primary-text-color);
+}
+
+
+
+.design__top {
+  max-width: 513px;
+}
+.design__title {
+  margin-top: 60px;
+  margin-bottom: 41px;
+  font-size: 32px;
+  line-height: 45px;
+  color: #ffffff;
+}
+.design__button {
+  margin-bottom: 196px;
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.design__button:hover {
+  background-color: var(--secondary-text-color);
+}
+
+.design__button:active {
+  opacity: 0.6;
+}
+
+.design__text {
+  margin-bottom: 60px;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
