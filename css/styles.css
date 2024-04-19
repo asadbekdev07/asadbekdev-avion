@@ -125,6 +125,14 @@ select:-webkit-autofill:focus {
   cursor: pointer;
 }
 
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
 
 
 .button--design {
@@ -454,8 +462,8 @@ select:-webkit-autofill:focus {
 }
 .sign-up__field {
   flex-grow: 1;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 18.5px;
+  padding-bottom: 18.5px;
   padding-left: 32px;
   padding-right: 200px;
   border: 0;
@@ -508,6 +516,132 @@ select:-webkit-autofill:focus {
   width: 720px;
   height: 603px;
 }
+
+
+/* SITE-FOOTER  */
+.site-footer {
+  background-color: var(--primary-text-color);
+  padding: 60px 80px 22px 80px;
+}
+
+.site-footer__top {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer__sitenav-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.site-footer__sitenav-list:not(:last-child) {
+  margin-right: 20px;
+}
+
+.site-footer__sitenav-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.site-footer__sitenav-link {
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.site-footer__sitenav-link:hover {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.site-footer__sitenav-link:active {
+  opacity: 0.6;
+}
+
+.link--big {
+  font-family: "Clash Display";
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.site-footer__form {
+  align-self: flex-start;
+}
+
+.site-footer__form-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Clash Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.site-footer .sign-up__email-form {
+  max-width: 600px;
+  width: 100%;
+}
+
+.site-footer .sign-up__field {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+.site-footer ::placeholder {
+  color: #ffffff;
+}
+
+.site-footer .sign-up__button {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.site-footer__divider {
+  margin: 0;
+  width: 100%;
+  border: 1px solid #4e4d93
+}
+
+/* SITE-FOOTER-BOTTOM  */
+.site-footer__bottom {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.socials__item:not(:last-child) {
+  margin-right: 24px;
+}
+.socials__link {
+  display: flex;
+  color: #ffffff;
+}
+
+.socials__link:hover {
+  color: #4e4d93;
+}
+
+.socials__icon {
+  display: flex;
+}
+
 
 
 @media
